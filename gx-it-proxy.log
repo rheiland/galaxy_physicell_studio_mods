@@ -1,0 +1,992 @@
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Watching path database/interactivetools_map.sqlite
+Listening on localhost:4002
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: database/interactivetools_map.sqlite does not exist.
+    at /home/heiland/.npm/_npx/d4ae894c36079e00/node_modules/node-watch/lib/watch.js:494:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Emitted 'error' event on Watcher instance at:
+    at /home/heiland/.npm/_npx/d4ae894c36079e00/node_modules/node-watch/lib/watch.js:493:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Node.js v18.12.1
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Watching path database/interactivetools_map.sqlite
+Listening on localhost:4002
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Watching path database/interactivetools_map.sqlite
+Listening on localhost:4002
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Watching path database/interactivetools_map.sqlite
+Listening on localhost:4002
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Watching path database/interactivetools_map.sqlite
+Listening on localhost:4002
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
+Working directory: /home/heiland/dev/galaxy-24.2.3
+Executing: npm_config_yes=true npx gx-it-proxy@>=0.0.6 --ip localhost --port 4002 --sessions database/interactivetools_map.sqlite --verbose    --proxyPathPrefix /interactivetool/ep
+Traceback (most recent call last):
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/bin/galaxyctl", line 8, in <module>
+    sys.exit(galaxyctl())
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/commands/cmd_exec.py", line 21, in cli
+    pm.exec(instance_names=instances_services, service_instance_number=service_instance, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 348, in exec
+    return self._process_executor.exec(config, service, service_instance_number=service_instance_number, no_exec=no_exec)
+  File "/home/heiland/dev/galaxy-24.2.3/.venv/lib/python3.8/site-packages/gravity/process_manager/__init__.py", line 290, in exec
+    os.execvpe(cmd[0], cmd, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 577, in execvpe
+    _execvpe(file, args, env)
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 610, in _execvpe
+    raise last_exc
+  File "/home/heiland/miniconda3/envs/_galaxy_/lib/python3.8/os.py", line 601, in _execvpe
+    exec_func(fullname, *argrest)
+FileNotFoundError: [Errno 2] No such file or directory: b'/snap/bin/npx'
