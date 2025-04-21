@@ -147,6 +147,6 @@
     <tool file="interactive/interactivetool_openrefine.xml" />
     <tool file="interactive/interactivetool_phinch.xml" />
     <tool file="interactive/interactivetool_rstudio.xml" />
-    <tool file="interactive/interactivetool_physicell_studio.xml" />
+    <tool file="interactive/interactivetool_pcstudio.xml" />
   </section>
 </toolbox>
