@@ -1,4 +1,7 @@
 gravity:
+  app_server: gunicorn
+  gunicorn:
+    bind: 'localhost:8080'
   gx_it_proxy:
     enable: true
     port: 4002
@@ -28,3 +31,6 @@ galaxy:
   # Do not set the following 2 options if you are using an upstream proxy server like nginx
   interactivetools_upstream_proxy: false
   interactivetools_proxy_host: localhost:4002
+
+  job_config_file: config/job_conf.yml
+  tool_config_file: config/tool_conf.xml
